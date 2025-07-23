@@ -1,12 +1,21 @@
 # 🧠 AfIt: Open-Source AI-Powered Nutrition & Wellness Tracker
 
 > **Gains start in the kitchen. AI helps you track it all.**
-> **Forked from [Energize](https://codeberg.org/epinez/Energize).**
 
-
-**AfIt** is a **privacy-first, open-source health and nutrition tracker** that combines **manual logging**, **AI assistance**, **wearable integration**, and **body metrics estimation** into one powerful app.
+AfIt is a **privacy-first, open-source health and nutrition tracker** that combines **manual logging**, **AI assistance**, **wearable integration**, and **body metrics estimation** into one powerful app.
 
 Whether you're tracking macros, managing hydration, or improving body composition, **AfIt gives you the tools — without selling your data**.
+
+See [PRIVACY.md](PRIVACY.md), to learn more.
+
+---
+
+## Why AfIt?
+
+- ✅ No paywalls, ads, or subscriptions  
+- ✅ Privacy-respecting — no data sold or shared  
+- ✅ AI-powered insights built-in  
+- ✅ Fully open source — new code under **Apache 2.0**  
 
 ---
 
@@ -22,6 +31,8 @@ Whether you're tracking macros, managing hydration, or improving body compositio
 | 🧬 Body Metrics Estimator | Planned | Estimate body fat % using wearable data + personal inputs (e.g., BMI, U.S. Navy method) |
 | 🎨 Full UI/UX Redesign | Planned | A clean, intuitive interface inspired by Notion and Apple Health — minimalistic, modular, and user-first |
 
+For full roadmap, see [ROADMAP.md](ROADMAP.md)
+
 ---
 
 ## 🚀 Getting Started
@@ -34,7 +45,7 @@ Whether you're tracking macros, managing hydration, or improving body compositio
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/afit.git
+git clone https://github.com/your-username/afit.git  
 cd afit
 flutter pub get
 flutter run
@@ -61,7 +72,13 @@ For more info, check out our [Contributing Guide](CONTRIBUTING.md)
 
 ## 📄 License
 
-This project is licensed under the **GNU Affero General Public License v3.0** — see the [LICENSE](LICENSE) file for details.
+This project builds on the GPLv3-licensed [Energize](https://codeberg.org/epinez/Energize/src/commit/763dc8f7b5abe5a772846ca30941e34145a00c7f) codebase, which remains under its original license.
+
+All **new code** in this project is licensed under **[Apache License 2.0](LICENSE)** — allowing broad reuse while giving proper credit and protecting contributors.
+
+See:
+- [LICENSE](LICENSE) – Apache 2.0 (new code)
+- [GPLv3](GPLv3) – Original Energize license
 
 ---
 
@@ -75,3 +92,8 @@ If you like what we're building:
 - Suggest features or improvements
 
 Together, we can build the most **intelligent, ethical, and user-owned nutrition tracker** out there.
+
+### Contributors & Advisors
+
+- [Energize](https://codeberg.org/epinez/Energize/src/commit/763dc8f7b5abe5a772846ca30941e34145a00c7f) - Provided AfIt's foundation 
+- [Qwen/QwQ Team]https://qwenlm.github.io/about/) - Provided early vision framing, roadmap strategy, UI/UX guidance, and technical planning.
