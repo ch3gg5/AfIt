@@ -96,4 +96,4 @@ Together, we can build the most **intelligent, ethical, and user-owned nutrition
 ### Contributors & Advisors
 
 - [Energize](https://codeberg.org/epinez/Energize/src/commit/763dc8f7b5abe5a772846ca30941e34145a00c7f) - Provided AfIt's foundation 
-- [Qwen/QwQ Team]https://qwenlm.github.io/about/) - Provided early vision framing, roadmap strategy, UI/UX guidance, and technical planning.
+- [Qwen/QwQ Team](https://qwenlm.github.io/about/) - Provided early vision framing, roadmap strategy, UI/UX guidance, and technical planning.
